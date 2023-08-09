@@ -27,7 +27,7 @@ function enviarDatosGPS() {
             formData.append("fecha_hora", fecha_hora);
 
             // Enviar los datos a través de una solicitud POST
-            fetch("http://localhost/gps/server/host/post.php", {
+            fetch("http://aplicaciongps.lovestoblog.com/server/host/post.php", {
                 method: "POST",
                 body: formData
             })
