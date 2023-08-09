@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
         contrasena: contrasena
     };
 
-    fetch('http://localhost/gps/server/host/generarToken.php', {
+    fetch('http://aplicaciongps.lovestoblog.com/server/host/generarToken.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
